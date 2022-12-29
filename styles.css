@@ -126,3 +126,8 @@ p {
 .div {
   display: block;
 }
+
+.code-source {
+  display: block;
+  text-align: center;
+}
