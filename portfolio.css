@@ -1,8 +1,13 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #faf7fe;
+  --branding-color: rgb(245, 142, 53);
+  --secondary-color: rgb(40, 35, 30);
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(40, 35, 30);
+  color: peachpuff;
 }
 
 h1,
@@ -53,7 +58,7 @@ p {
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
-  color: #272142;
+  color: peachpuff;
 }
 
 .btn-branding {
@@ -125,7 +130,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
 
@@ -162,7 +167,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: white;
+  color: var(--secondary-color);
   background-color: var(--branding-color);
 }
 
