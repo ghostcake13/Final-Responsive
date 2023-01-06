@@ -169,6 +169,17 @@ footer .contact-box p {
   margin: 0;
 }
 
+footer .email {
+  text-decoration: none;
+  color: var(--branding-color);
+  font: var(--default-font-family);
+}
+
+footer .email:hover {
+  color: peachpuff;
+  transition: 100ms ease-in-out;
+}
+
 footer .social-links {
   margin: 20px;
   text-align: center;
