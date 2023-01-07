@@ -106,6 +106,7 @@ p {
 
 .content-container {
   padding: 60px 20px;
+  background-color: rgb(0, 0, 0, .5);
 }
 .content {
   margin: 30px;
