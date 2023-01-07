@@ -199,14 +199,12 @@ footer .social-links a {
   padding: 10px 20px;
   margin: 0 20px;
   color: var(--branding-color);
-  background: var(--secondary-color);
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
-  color: var(--secondary-color);
-  background-color: var(--branding-color);
+  font-size: 52px;
 }
 
 .me {
