@@ -64,7 +64,7 @@ p {
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
-  color: pink;
+  color: rgb(253, 161, 176);
 }
 
 .btn-branding {
@@ -163,7 +163,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: pink;
+  color:rgb(253, 161, 176);
 }
 
 footer .contact-box {
@@ -184,7 +184,7 @@ footer .email {
 }
 
 footer .email:hover {
-  color: pink;
+  color: rgb(253, 161, 176);
   transition: 100ms ease-in-out;
 }
 
